@@ -1,0 +1,38 @@
+.socials__list {
+  @include flex-center('bet');
+  position: absolute;
+  top: 206px;
+  left: 78px;
+  width: 227px;
+}
+
+.section__item {
+  @extend %item;
+}
+
+.socials__icon {
+  fill: $primary-accent-color;
+  display: block;
+  width: 50%;
+  height: 50%;
+}
+
+.socials__link {
+  color: $primary-light-color;
+  background: $secondary-accent-color;
+  @include flex-center('all');
+  @extend %link;
+  @extend %transition-effect;
+  border: none;
+  width: 56px;
+  height: 56px;
+}
+
+.socials__link:hover,
+.socials__link:focus {
+  background: $primary-accent-color;
+
+  & .socials__icon {
+    fill: $primary-light-color;
+  }
+}

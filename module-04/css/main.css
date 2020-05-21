@@ -1,0 +1,249 @@
+/* ------ RESET AND GENERAL STYLE ------ */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+/* ------ HEADER STYLE ------ */
+.header__content {
+    margin: 20px auto 97px;
+}
+
+.site__navigation {
+    margin: 0 30px;
+}
+
+/* ----------- logo style ----------- */
+.site__logo {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #555252;
+}
+
+.site__logo::first-letter {
+    color: #1abc9c;
+    font-weight: 900;
+}
+
+/* ----------- menu style ----------- */
+.menu__list {
+    width: 490px;
+    float: right;
+    margin-top: 7px;
+}
+
+.menu__item {
+    float: left;
+    list-style-type: none;
+    margin-right: 34px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__item__link {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0f0101;
+    font-family: 'Open Sans', 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    transition: .3s ease;
+}
+
+.menu__item__link:hover,
+.menu__item__link:focus {
+    color: #1abc9c;
+}
+
+/* ------ MAIN STYLE ------ */
+.main__content {
+    margin-bottom: 82px;
+}
+
+/* ----------- features section style ----------- */
+.products__section {
+    margin: 0 30px 100px;
+}
+.section__heading {
+    text-align: center;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 900;
+    color: #515151;
+    text-transform: uppercase;
+    margin-bottom: 92px;
+}
+
+.section__heading::after {
+    content: '';
+    display: block;
+    background: #1abc9c;
+    height: 7px;
+    width: 164px;
+    margin: 27px auto 0;
+}
+
+.product__item {
+    background: #e9f0fd;
+    width: 255px;
+    height: 322px;
+    list-style-type: none;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+.product__item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.product__item:nth-last-of-type(-n + 4) {
+    margin-bottom: 0;
+}
+
+.product__list__item {
+    display: block;
+    text-decoration: none;
+    font-size: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    line-height: 282px;
+}
+
+.product_image {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.product__name {
+    display: inline-block;
+    background: #323232;
+    color: #fff;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: 900;
+    height: 40px;
+    width: 203px;
+    padding: 5px 0 0 11px;
+    transition: .4s ease;
+    text-align: left;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+
+.product__item:hover .product__name {
+    background: #1abc9c;
+}
+
+.product__price {
+    display: inline-block;
+    background: #8c8c8c;
+    color: #fff;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 900;
+    height: 40px;
+    width: 52px; 
+    padding: 5px;
+    transition: .4s ease;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+.product__item:hover .product__price {
+    background: #7fd9c7;
+}
+
+/* ----------- news section style ----------- */
+.news__section {
+    margin: 0 30px 82px;
+}
+
+.news__item {
+    float: left;
+    width: 350px;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+.news__item:last-child {
+    margin-right: 0;
+}
+
+.news__img {
+    margin-bottom: 11px;
+}
+
+.news__heading {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Open Sans', 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #555252;
+}
+
+.news__heading::after {
+    content: '';
+    display: block;
+    background: #4ec6ab;
+    height: 3px;
+    width: 136px;
+    margin: 11px 0 24px;
+}
+
+.news__text {
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Open Sans', 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #555252;
+    overflow: hidden;
+    height: 75px;
+    margin-bottom: 10px;
+}
+
+/* ----------- button style ----------- */
+.load__button {
+    display: block;
+    padding: 15px 42px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    font-family: 'Open Sans', 'Montserrat', sans-serif;
+    color: #ffffff;
+    border: none;
+    background-color: #4ec6ab;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: .4s ease;
+  }
+  
+.load__button:hover,
+.load__button:focus {
+    box-shadow: 1.2px 2px 5px rgba(0,0,0,0.4)
+  }

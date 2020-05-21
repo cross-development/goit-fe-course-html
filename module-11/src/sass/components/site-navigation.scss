@@ -1,0 +1,6 @@
+.site-navigation {
+  @include flex-center('bet');
+  padding-top: 16px;
+  margin-bottom: 174px;
+  align-items: flex-end;
+}

@@ -1,0 +1,23 @@
+.promo-headig {
+  font-size: 150px;
+  line-height: 140px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto 110px;
+  display: block;
+}
+
+.promo-headig::before {
+  content: 'Creative Template';
+  display: block;
+  font-size: 72px;
+  line-height: 86px;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Kaushan Script', 'Cedarville Cursive', cursive;
+  text-transform: none;
+  padding-bottom: 22px;
+}
+/*# sourceMappingURL=promo-headig.css.map */

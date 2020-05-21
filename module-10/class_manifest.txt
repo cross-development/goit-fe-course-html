@@ -1,0 +1,69 @@
+container
+
+link
+
+item
+
+transition-effect
+
+header
+    header__overlay
+
+site-navigation
+
+site-logo
+
+menu-list
+    menu-list__item
+    menu-list__link
+    menu-list__icon
+        menu-list__icon_cart
+        menu-list__icon_search
+
+promo-wrapper
+
+promo-headig
+
+site-button
+
+main
+
+section
+    section__heading
+        section__heading_services
+        section__heading_team
+    section__list
+
+services
+    services__item
+    services__icon
+        services__icon_alarm
+        services__icon_graph
+        services__icon_computer
+        services__icon_book
+        services__icon_home
+        services__icon_digital
+    services__heading
+    services__text
+
+team
+    team__description
+    team__card
+    team__card-image
+    team__card-name
+    team__card-occupation
+    team__overlay    
+    
+socials
+    socials__list
+    socials__item
+    socials__link
+    socials__icon
+
+footer
+    footer__text
+    footer__link
+
+form
+    form__email
+    form__button

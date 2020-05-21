@@ -1,0 +1,7 @@
+.site-logo {
+  font-size: $section-title-size;
+  line-height: $section-title-heigh;
+  font-weight: $secondary-text-weight;
+  color: $primary-light-color;
+  @extend %link;
+}

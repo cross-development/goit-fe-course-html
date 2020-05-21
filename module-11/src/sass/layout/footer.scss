@@ -1,0 +1,6 @@
+.footer {
+  border-top: 1px solid $secondary-light-color;
+  @include flex-center ('bet');
+  height: 62px;
+  align-items: center;
+}

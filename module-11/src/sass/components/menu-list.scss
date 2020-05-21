@@ -1,0 +1,5 @@
+.menu-list {
+  @include flex-center('bet');
+  @extend %item;
+  width: 490px;
+}

@@ -1,0 +1,19 @@
+.form__button {
+  background: $primary-bg-color;
+  font-size: $primary-text-size;
+  line-height: $primary-text-height;
+  font-weight: $secondary-text-weight;
+  color: $primary-light-color;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  @extend %transition-effect;
+
+  &:hover {
+    background: $secondary-bg-color;
+  }
+}
+

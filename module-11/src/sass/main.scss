@@ -1,0 +1,47 @@
+// Utils
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'utils/placeholder';
+
+// Base styles
+@import 'fonts';
+@import 'normalize';
+@import 'base';
+
+// Main page layout 
+@import 'layout/header';
+@import 'layout/main-content';
+@import 'layout/footer';
+
+// Components 
+@import './components/container.scss';
+@import './components/header__overlay';
+@import './components/promo-wrapper';
+@import './components/promo-subtitle';
+@import './components/promo-title';
+@import './components/site-button';
+@import './components/site-logo';
+@import './components/site-navigation';
+@import './components/menu-list';
+@import './components/menu-list__link';
+@import './components/menu-list__icon';
+@import './components/menu-list__item';
+@import './components/services';
+@import './components/section__subtitle';
+@import './components/section__title';
+@import './components/section__list';
+@import './components/services__item';
+@import './components/services__title';
+@import './components/services__text';
+@import './components/services__icon';
+@import './components/team__description';
+@import './components/section__item';
+@import './components/team__card';
+@import './components/socials__list';
+@import './components/team__card-name';
+@import './components/team__card-occupation';
+@import './components/footer__text';
+@import './components/footer__link';
+@import './components/form';
+@import './components/form__email';
+@import './components/form__button';

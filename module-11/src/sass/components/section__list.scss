@@ -1,0 +1,4 @@
+.section__list {
+  @include flex-center('bet');
+  flex-wrap: wrap;
+}

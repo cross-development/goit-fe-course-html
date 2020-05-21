@@ -1,0 +1,23 @@
+.site-button {
+  font-size: $primary-text-size;
+  line-height: $primary-text-height;
+  font-weight: $secondary-text-weight;
+  color: $primary-light-color;
+  border: 3px solid $primary-light-color;
+  @extend %transition-effect;
+  text-align: center;
+  display: block;
+  width: 164px;
+  height: 44px;
+  background: transparent;
+  margin: 0 auto;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    border: 3px solid $primary-accent-color;
+    color: $primary-accent-color;
+  }
+}
+

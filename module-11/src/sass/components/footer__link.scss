@@ -1,0 +1,11 @@
+.footer__link {
+  color: $primary-dark-color;
+  @extend %transition-effect;
+  @extend %link;
+
+  &:hover,
+  &:focus {
+    color: $primary-accent-color;
+  }
+}
+

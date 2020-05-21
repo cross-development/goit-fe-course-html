@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Wisdom';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/wisdom_script/Wisdom_Script_AI.woff2') format('woff2'),
+         url('../fonts/wisdom_script/Wisdom_Script_AI.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat/montserrat-v14-latin-regular.woff2') format('woff2'),
+         url('../fonts/montserrat/montserrat-v14-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat/montserrat-v14-latin-700.woff2') format('woff2'), 
+         url('../fonts/montserrat/montserrat-v14-latin-700.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Merriweather Italic'), local('Merriweather-Italic'),
+         url('../fonts/merriweather_droidserif/merriweather-v21-latin-italic.woff2') format('woff2'),
+         url('../fonts/merriweather_droidserif/merriweather-v21-latin-italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto_slab/roboto-slab-v11-latin-regular.woff2') format('woff2'),
+         url('../fonts/roboto_slab/roboto-slab-v11-latin-regular.woff') format('woff');
+}

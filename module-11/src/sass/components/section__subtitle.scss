@@ -1,0 +1,11 @@
+.section__subtitle {
+  display: block;
+  font-size: $section-subtitle-size;
+  line-height: $section-subtitle-heigh;
+  font-weight: $primary-text-weight;
+  color: $primary-dark-color;
+  font-family: $total-text-font;
+  text-transform: none;
+  padding-bottom: 18px;
+  text-align: center;
+}

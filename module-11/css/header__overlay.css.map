@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACf,UAAU,EAAE,mEAAiE;EAC7E,MAAM,EAAE,IAAI;CACb",
+    "sources": [
+        "../src/sass/components/header__overlay.scss"
+    ],
+    "names": [],
+    "file": "header__overlay.css"
+}

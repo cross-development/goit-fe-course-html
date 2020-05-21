@@ -1,0 +1,18 @@
+.menu-list__link {
+  font-size: $primary-text-size;
+  line-height: $primary-text-height;
+  font-weight: $primary-text-weight;
+  color: $primary-light-color;
+  fill: $primary-light-color;
+  @extend %transition-effect;
+  @extend %link;
+  text-transform: uppercase;
+    
+  &:hover,
+  &:focus {
+    color: $secondary-accent-color;
+    fill: $secondary-accent-color;
+  }
+
+}
+
