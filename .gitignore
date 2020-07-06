@@ -1,6 +1,10 @@
 # Artifacts
 stash/
 theory/
+new-theory/
+
+# Descriptions
+*.txt
 
 # Logs
 logs
